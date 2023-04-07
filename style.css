@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #0F100B;
+    color: #FCFCFC;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold italic;
+    
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #404622;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #FCFCFC;
+}
+nav a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://rare-gallery.com/mocahbig/395610-cod-black-ops-cold-war-characters-4k-pc-wallpaper.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color:white;
+    margin-bottom: 50px;
+}
+.join{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #404622;
+    font-style: italic;
+    
+
+}
+.join:hover{
+    color: goldenrod;
+    background-color: #404622;
+}
+.welcome h1{
+    margin-bottom: 20px;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 200px;
+}
+.foot{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #C2CFA1;
+}
+.box{
+    inline-size: 250px;
+    overflow-wrap: break-word;
+}
+.aboutus{
+    color: white;
+    text-align: center;
+}
+.board{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+    
+}
+section h2{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 50px 20px;
+}
+.board img{
+    margin-left: 70px;
+}
+.mem{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+
+.characters{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.characters img{
+    height: 220px;
+    width: auto;
+    margin-left: 50px;
+    background-color: white;
+  
+}    
+.weapons{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.weapons img{
+    height: 160px;
+    width: auto;
+    margin-left: 50px;
+    background-color: white;
+}
+.warzone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://fingerguns.net/wp-content/uploads/2022/11/Modern-Warfare-2-2022-Review.jpg");
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    color:white;
+    margin-bottom: 50px;
+}
+.purchase{
+    margin-left: 630px;
+    margin-top: 350px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #404622;
+    font-style: italic;
+    font-size: 15px;
+}
+.purchase:hover{
+    color: goldenrod;
+    background-color: #404622;
+}
+.mw{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+    
+}
+.mw img{
+    margin-left: 70px;
+}
+
+.mobile img{
+    width: 1300px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 0px;
+
+}
+.mobile p{
+    font-size: 40px;
+    color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+}
+
+.codweb{
+    text-decoration: none;
+    color: #FCFCFC;
+}
+.codweb:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+.socials{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+    
+}
+.insta{
+    font-size: 200px;
+    color: black;
+}
+.twitter{
+    font-size: 200px;
+    color: black;
+}
+.youtube{
+    font-size: 200px;
+    color: black;
+}
+.socials div p{
+    color: black;
+    font-size: 25px;
+}
+.socials div :hover{
+    color: grey;
+    text-decoration: underline;
+}
+.socials div a{
+    text-decoration: none;
+    color: black;
+}
+.message{
+    padding: 40px 20px;
+    text-align: center;
+    color: goldenrod;
+}
+.salute{
+    margin-left:370px ;
+    width: 600px;
+    height: auto;
+}
+.info{
+    color: white;
+    margin-left: 10px;
+}
+.enterinfo div{
+    padding: 10px 10px;
+    color: goldenrod;
+}
+.submit{
+        border-radius: 20px;
+        padding: 10px 20px;
+        background-color: white;
+        color: #404622;
+        font-style: italic;
+        text-decoration: none;
+        margin-left: 630px;
+        
+    }
+
+.submit:hover{
+        color: goldenrod;
+        background-color: grey;
+    }
+
+.enterinfo{
+    display: flex;
+    margin-bottom: 30px;
+    column-gap: 60px;
+}
